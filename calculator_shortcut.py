@@ -20,6 +20,7 @@ def calculate():
 
     last_run = current_time
 
+    # Copy selected text
     keyboard.press_and_release('ctrl+c')
     time.sleep(0.2)
 
@@ -27,10 +28,12 @@ def calculate():
 
     try:
         result = safe_eval(text)
+
+        # Copy result
         pyperclip.copy(str(result))
         time.sleep(0.1)
 
-        keyboard.press_and_release('right')  # remove selection
+        # Directly replace selection
         keyboard.press_and_release('ctrl+v')
 
     except Exception as e:
@@ -39,4 +42,4 @@ def calculate():
 keyboard.add_hotkey('ctrl+=', calculate)
 
 print("Running... Press ESC to stop")
-keyboard.wait('esc') 
+keyboard.wait('esc')
