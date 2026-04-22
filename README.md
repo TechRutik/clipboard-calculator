@@ -1,7 +1,9 @@
 
-## Demo
+## clipboard-calculator
 
-![Demo](calgif.gif)# clipboard-calculator
+
+![CALCULATOR](calgif.gif)
+# clipboard-calculator
 A simple tool that lets you solve math expressions anywhere using a shortcut key.
 # Clipboard Calculator
 
