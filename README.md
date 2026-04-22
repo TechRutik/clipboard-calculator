@@ -1,7 +1,4 @@
 
-## clipboard-calculator
-
-
 ![CALCULATOR](calgif.gif)
 
 # Clipboard Calculator
