@@ -70,7 +70,7 @@ pythonw calculator_shortcut.py
 
 | Action               | Shortcut         |
 | -------------------- | ---------------- |
-| Calculate expression | Ctrl + Shift + C |
+| Calculate expression | Ctrl + = |
 | Stop script          | ESC              |
 
 ---
