@@ -22,7 +22,7 @@ Clipboard Calculator is a lightweight Python tool that removes the need to open 
 ## How It Works
 
 1. Select any mathematical expression (for example, `12 + 5 * 3`)
-2. Press **Ctrl + Shift + C**
+2. Press **Ctrl + =**
 3. The script will:
 
    * Copy the selected text
